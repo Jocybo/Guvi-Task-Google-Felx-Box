@@ -45,3 +45,122 @@
 .bg-six {
     background-color: rgba(255, 255, 255, 0.329);
 }
+
+.image {
+    width: 200px;
+}
+
+.part-image {
+    width: 150px;
+}
+
+
+/* EXTRA SMALL DEVICES */
+
+@media only screen and (max-width: 600px) {
+    .part-image {
+        width: 100px;
+    }
+    .image {
+        width: 100px;
+    }
+    .sec-padding {
+        padding-top: 12px;
+    }
+    .display-g {
+        font-size: 80px;
+    }
+}
+
+
+/* SMALL DEVICES */
+
+@media only screen and (min-width: 600px) {
+    .part-image {
+        width: 130px;
+    }
+    .image {
+        width: 150px;
+    }
+    .sec-padding {
+        padding-top: 12px;
+    }
+    .display-g {
+        font-size: 80px;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .sec-padding {
+        padding-top: 0px;
+    }
+    .image {
+        width: 180px;
+    }
+    .part-image {
+        width: 143px;
+    }
+    .display-g {
+        font-size: 100px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .image {
+        margin-top: 48px;
+    }
+    .responsive {
+        margin-top: 50px;
+    }
+    .res {
+        margin-top: 70px;
+    }
+    .overall {
+        margin-top: 70px;
+    }
+    .sub-one-padding {
+        padding-right: 0px;
+    }
+    .display-g {
+        font-size: 70px;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    .part-image {
+        width: 160px;
+    }
+    .responsive {
+        margin-top: 100px;
+    }
+    .res {
+        margin-top: 0px;
+    }
+    .overall {
+        margin-top: 0px;
+    }
+}
+
+
+/* Extra Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1440px) {
+    .responsive {
+        margin-top: 10px;
+    }
+    .res {
+        width: 110px;
+    }
+    .part-image {
+        width: 172px;
+    }
+}
